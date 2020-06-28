@@ -1,0 +1,122 @@
+.soc-1 {
+    width: 40px;
+    height: 40px;
+    background: url(../img/sprite-footer.png) 0 0 no-repeat;
+
+}
+
+.footer-bottom {
+    background: #242A2E;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+.footer-bottom a {
+    margin-top: 20px;
+    display: block;
+    float: left;
+    padding-left: 43px;
+    font-size: 17px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-bottom li {
+    list-style: none;
+}
+
+.soc-areas li {
+    float: left;
+}
+
+.soc-1 {
+    width: 40px;
+    height: 40px;
+    background: url(../img/sprite-footer.png) 0 0 no-repeat;
+    background-position: -30px;
+}
+
+.soc-2 {
+    width: 40px;
+    height: 40px;
+    background: url(../img/sprite-footer.png) 0 0 no-repeat;
+    background-position: -65px;
+}
+
+
+.soc-3 {
+    width: 40px;
+    height: 40px;
+    background: url(../img/sprite-footer.png) 0 0 no-repeat;
+    background-position: -100px;
+}
+
+.soc-areas li {
+    float: left;
+    margin-top: -15px;
+    margin-bottom: 12px;
+}
+
+.soc-areas {
+    margin-right: 20px;
+}
+
+
+.soc-4 {
+    width: 40px;
+    height: 40px;
+    background: url(../img/sprite-footer.png) 0 0 no-repeat;
+    background-position: -136px;
+
+}
+
+@media screen and (max-width: 767px) {
+    body .footer-bottom a {
+        color: #949FB1;
+        text-align: center !important;
+        display: block;
+        float: none !important;
+        padding: 0 !important;
+    }
+
+    body .footer-bottom .fll,
+    body .footer-bottom .flr {
+        float: none;
+        margin: 0 auto !important;
+        display: block;
+        width: 278px;
+        padding-left: 0 !important;
+    }
+}
+
+.soc-5 {
+    width: 40px;
+    height: 40px;
+    background: url(../img/sprite-footer.png) 0 0 no-repeat;
+    background-position: -171px;
+}
+
+.footer-bottom a {
+    color: #949FB1;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.btn-group.ssd2.fll button , .input-n-area.fll.hidden-xs.hidden-sm.hidden-md{
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+
+@media screen and (min-width: 991px) {
+tbody td.footable-last-visible:after{
+    display: none;
+}
+}
+
+

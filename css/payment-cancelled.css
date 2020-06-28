@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+    .tll-txt {
+        font-size: 15px;
+    }
+
+    .col-xs-1 .btn-sm {
+        margin-left: -15px;
+    }
+}
+
+.clock-area {
+    width: 90px;
+    height: 90px;
+    background: url(../img/clock.gif) 0 0 no-repeat;
+    margin: 0 auto;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: -22px;
+    background-size: contain;
+}

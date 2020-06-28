@@ -1,0 +1,19 @@
+button.pay-b {
+    background: #37929B;
+    border: 0;
+    color: #fff;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 6px;
+    font-weight: bold !important;
+}
+
+button.pay-b:hover {
+    opacity: 0.8 !important;
+}
+
+@media screen and (min-width: 991px) {
+tbody td.footable-last-visible:after{
+    display: none;
+}
+}

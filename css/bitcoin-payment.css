@@ -1,0 +1,43 @@
+     @media (max-width: 767px) {
+         .tll-txt {
+             font-size: 15px;
+         }
+
+         .col-xs-1 .btn-sm {
+             margin-left: -15px;
+         }
+     }
+
+     .wallet-st {
+         width: 100%;
+         background: #DEE1E6;
+         border-radius: 4px;
+         color: #91A2AF;
+         padding: 10px;
+         padding-left: 19px;
+         font-family: 'ProximaNova-Bold' !important;
+         margin-bottom: 12px;
+         margin-top: 10px;
+     }
+
+     .p-area-bt {
+         margin-bottom: 25px;
+     }
+
+     .white-modal-padding2 button:before,
+     .white-modal-padding2 button:after {
+         display: none !important;
+     }
+
+     .white-modal-padding2 button {
+         margin-right: 10px;
+         text-decoration: none !important;
+     }
+
+     .white-modal-padding2 img {
+         margin-bottom: 20px;
+     }
+
+     .white-modal-padding2 a {
+         text-decoration: none !important;
+     }

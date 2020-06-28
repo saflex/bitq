@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+    .tll-txt {
+        font-size: 15px;
+    }
+
+    .col-xs-1 .btn-sm {
+        margin-left: -15px;
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+span.numbers-area {
+    clear: both;
+    display: block;
+}
+
+.row.line-area {
+    line-height: 14px;
+}
+
+span.txt-line {
+    display: block;
+    height: 30px;
+
+    margin-bottom: 5px;
+}

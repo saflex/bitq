@@ -1,0 +1,1259 @@
+.tbx {
+    margin-top: 0 !important;
+}
+
+button.pay-b {
+    background: #37929B;
+    border: 0;
+    color: #fff;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 6px;
+    font-weight: bold !important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+button.pay-b:hover {
+    opacity: 0.8 !important;
+}
+
+.red-bt {
+    background: #9C5E7B !important;
+}
+
+
+
+a.button.depos {
+    background: #fff;
+    color: #000;
+    font-size: 11px !important;
+    padding: 9px 10px !important;
+    margin-top: -6px;
+    margin-bottom: 21px;
+    text-decoration: none !important;
+    text-align: center !important;
+    float: right !important;
+}
+
+a.button.depos:hover {
+    opacity: 0.8 !important;
+}
+
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon_BTC {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -365px;
+}
+
+i.sprite {
+    float: left;
+    margin-right: 9px;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.pddl {
+    padding-left: 40px;
+}
+
+.disabled-btn,
+button.disabled-btn:hover {
+    background: #6F7B8B !important;
+    opacity: 1 !important;
+}
+
+
+@media screen and (max-width: 1199px) {
+    table.tbl-d.table tbody td {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    a.button.depos {
+        background: #fff;
+        color: #000;
+        font-size: 11px !important;
+        padding: 9px 10px !important;
+        float: left !important;
+        margin-top: 18px;
+        margin-bottom: 27px;
+        text-decoration: none !important;
+        text-align: center !important;
+    }
+
+
+
+    .mobile-pdd {
+        margin-top: 50px;
+    }
+
+}
+
+
+.price-cell {
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-family: 'ProximaNova-Bold';
+    color: #3A505B;
+}
+
+.price-cell .float-left {
+    position: relative;
+    z-index: 2;
+    padding-right: 5px;
+    background: #fff;
+}
+
+.float-left {
+    float: left;
+}
+
+.price-cell .float-right {
+    position: relative;
+    z-index: 2;
+    padding-left: 9px;
+    background: #fff;
+    color: #0093D3 !important;
+}
+
+.float-right {
+    float: right;
+}
+
+span.dotted-price {
+    position: absolute;
+    width: 100%;
+    border-bottom: 2px dotted #3A505B;
+    margin-top: 12px;
+}
+
+.price-in-modal i {
+    float: right;
+    position: relative;
+    margin-right: -7px;
+    margin-left: -3px;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    margin-bottom: -5px;
+}
+
+@media screen and (min-width: 1200px) {
+    div#exTab1 .gr-block {
+        /* height: 124vh; */
+        padding-right: 40px;
+    }
+}
+
+
+
+/*! CSS Used from: https://socialcloudbank.com/css/bootstrap.css */
+@media print {
+
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-xs-12 {
+    float: left;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+/*! CSS Used from: https://socialcloudbank.com/css/style.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*! CSS Used from: https://cloudbank.social/css/nst.css */
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.open .finput {
+    float: left;
+    color: #515254;
+    box-sizing: border-box;
+}
+
+.open .finput {
+    position: relative;
+    width: 72%;
+}
+
+.profit {
+    position: relative;
+    margin-left: -40px;
+    padding-top: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.profit__inner {
+    display: inline-block;
+}
+
+.profit__chart,
+.profit__diff,
+.profit__inner {
+    position: relative;
+    width: 150px;
+}
+
+.profit__inner {
+    vertical-align: bottom;
+}
+
+.profit__sum,
+.profit__value {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #515254;
+    text-align: center;
+}
+
+.profit__inner:first-child .profit__chart {
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.profit__chart {
+    height: 52px;
+    margin-bottom: 9px;
+    padding-top: 17px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    background: #c1c1c1;
+    background: -moz-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(61%, rgba(193, 193, 193, 1)), color-stop(100%, rgba(249, 249, 249, 1)));
+    background: -webkit-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -o-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: linear-gradient(to bottom, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c1c1c1', endColorstr='#f9f9f9', GradientType=0);
+}
+
+.profit__chart,
+.profit__diff,
+.profit__inner {
+    position: relative;
+    width: 150px;
+}
+
+.profit__chart,
+.profit__descr {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.profit__descr {
+    color: #929394;
+    text-align: center;
+}
+
+.profit__chart,
+.profit__descr {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.profit__total {
+    position: absolute;
+    width: 212px;
+    top: 59px;
+    right: -96px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.profit__diff {
+    height: 85px;
+    margin-bottom: 3px;
+    background-color: #019BE1;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.profit__descr {
+    color: #929394;
+    text-align: center;
+}
+
+.profit__total {
+    position: absolute;
+    width: 212px;
+    top: 59px;
+    right: -96px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.profit__total-sum {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.profit__diff-val,
+.profit__diff-val:after {
+    width: 100%;
+    height: 13px;
+    left: 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFF;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+.profit__diff-val {
+    top: 50%;
+    margin-top: 3px;
+}
+
+.profit__diff-val:after {
+    content: 'Ð”Ð¾Ñ…Ð¾Ð´';
+    bottom: 100%;
+    margin-bottom: 4px;
+}
+
+.profit__inner {
+    margin-right: 14px;
+}
+
+.profit__wrapper {
+    position: relative;
+    width: 320px;
+    padding-bottom: 6px;
+    white-space: nowrap;
+    margin-left: 200px;
+    margin-bottom: 13px;
+}
+
+@media (max-width: 991px) {
+    .profit__wrapper {
+        position: relative;
+        width: 320px;
+        padding-bottom: 6px;
+        white-space: nowrap;
+        margin-left: 51px;
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .open .finput {
+        position: relative;
+        width: 100% !important;
+    }
+
+    .profit {
+        position: relative;
+        margin-left: auto;
+        padding-top: 8px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .profit__wrapper {
+        position: relative;
+        width: 320px;
+        padding-bottom: 6px;
+        white-space: nowrap;
+        margin-left: auto !important;
+        margin-bottom: 13px;
+        margin: 0 auto !important;
+    }
+
+    .profit__total {
+        position: relative;
+        width: 212px;
+        top: 16px;
+        right: auto;
+        margin: 0 auto;
+        left: auto;
+        padding-top: 16px;
+        padding-bottom: 17px;
+        text-align: center;
+        border: 1px solid #c1c1c1;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .open {
+        margin-top: 20px;
+    }
+}
+
+.profit i {
+    display: inline-block;
+    transform: scale(0.65);
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    vertical-align: middle;
+}
+
+.vlm {
+    vertical-align: middle;
+}
+
+.profit__total-sum i {
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+}
+
+.profit__total-sum i {
+    transform: scale(0.76) !important;
+    -webkit-transform: scale(0.76) !important;
+    -moz-transform: scale(0.76) !important;
+}
+
+/*! CSS Used from: https://socialcloudbank.com/css/login.css */
+* {
+    position: relative;
+}
+
+@media (min-width: 991px) and (max-width: 1199px)
+
+/*! CSS Used from: https://cloudbank.social/css/nst.css */
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.open .finput {
+    float: left;
+    color: #515254;
+    box-sizing: border-box;
+}
+
+.open .finput {
+    position: relative;
+    width: 72%;
+}
+
+.profit {
+    position: relative;
+    margin-left: -40px;
+    padding-top: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.profit__inner {
+    display: inline-block;
+}
+
+.profit__chart,
+.profit__diff,
+.profit__inner {
+    position: relative;
+    width: 150px;
+}
+
+.profit__inner {
+    vertical-align: bottom;
+}
+
+.profit__sum,
+.profit__value {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #515254;
+    text-align: center;
+}
+
+.profit__inner:first-child .profit__chart {
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.profit__chart {
+    height: 52px;
+    margin-bottom: 9px;
+    padding-top: 17px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    background: #c1c1c1;
+    background: -moz-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(61%, rgba(193, 193, 193, 1)), color-stop(100%, rgba(249, 249, 249, 1)));
+    background: -webkit-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -o-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: linear-gradient(to bottom, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c1c1c1', endColorstr='#f9f9f9', GradientType=0);
+}
+
+.profit__chart,
+.profit__diff,
+.profit__inner {
+    position: relative;
+    width: 150px;
+}
+
+.profit__chart,
+.profit__descr {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.profit__descr {
+    color: #929394;
+    text-align: center;
+}
+
+.profit__chart,
+.profit__descr {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.profit__total {
+    position: absolute;
+    width: 212px;
+    top: 59px;
+    right: -96px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.profit__diff {
+    height: 85px;
+    margin-bottom: 3px;
+    background-color: #019BE1;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.profit__descr {
+    color: #929394;
+    text-align: center;
+}
+
+.profit__total {
+    position: absolute;
+    width: 212px;
+    top: 59px;
+    right: -96px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.profit__total-sum {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.profit__diff-val,
+.profit__diff-val:after {
+    width: 100%;
+    height: 13px;
+    left: 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFF;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+.profit__diff-val {
+    top: 50%;
+    margin-top: 3px;
+}
+
+.profit__diff-val:after {
+    content: 'Ð”Ð¾Ñ…Ð¾Ð´';
+    bottom: 100%;
+    margin-bottom: 4px;
+}
+
+.profit__inner {
+    margin-right: 14px;
+}
+
+.profit__wrapper {
+    position: relative;
+    width: 320px;
+    padding-bottom: 6px;
+    white-space: nowrap;
+    margin-left: 200px;
+    margin-bottom: 13px;
+}
+
+@media (max-width: 991px) {
+    .profit__wrapper {
+        position: relative;
+        width: 320px;
+        padding-bottom: 6px;
+        white-space: nowrap;
+        margin-left: 51px;
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .open .finput {
+        position: relative;
+        width: 100% !important;
+    }
+
+    .profit {
+        position: relative;
+        margin-left: auto;
+        padding-top: 8px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .profit__wrapper {
+        position: relative;
+        width: 320px;
+        padding-bottom: 6px;
+        white-space: nowrap;
+        margin-left: auto !important;
+        margin-bottom: 13px;
+        margin: 0 auto !important;
+    }
+
+    .profit__total {
+        position: relative;
+        width: 212px;
+        top: 16px;
+        right: auto;
+        margin: 0 auto;
+        left: auto;
+        padding-top: 16px;
+        padding-bottom: 17px;
+        text-align: center;
+        border: 1px solid #c1c1c1;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .open {
+        margin-top: 20px;
+    }
+}
+
+.profit i {
+    display: inline-block;
+    transform: scale(0.65);
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    vertical-align: middle;
+}
+
+.vlm {
+    vertical-align: middle;
+}
+
+.profit__total-sum i {
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+}
+
+.profit__total-sum i {
+    transform: scale(0.76) !important;
+    -webkit-transform: scale(0.76) !important;
+    -moz-transform: scale(0.76) !important;
+}
+
+/*! CSS Used from: https://cloudbank.social/css/new_style.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .sprite {
+        background-image: url(../img/spritesheet.png);
+        background-repeat: no-repeat;
+        display: block;
+    }
+}
+
+/*! CSS Used from: Embedded */
+@media (min-width: 768px)
+
+/*! CSS Used from: Embedded */
+    {
+    .cntr-m {
+        margin-left: 98px !important;
+    }
+}
+
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.open .finput {
+    float: left;
+    color: #515254;
+    box-sizing: border-box;
+}
+
+.open .finput {
+    position: relative;
+    width: 72%;
+}
+
+.profit {
+    position: relative;
+    margin-left: -40px;
+    padding-top: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.profit__inner {
+    display: inline-block;
+}
+
+.profit__chart,
+.profit__diff,
+.profit__inner {
+    position: relative;
+    width: 150px;
+}
+
+.profit__inner {
+    vertical-align: bottom;
+}
+
+.profit__sum,
+.profit__value {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #515254;
+    text-align: center;
+}
+
+.profit__inner:first-child .profit__chart {
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.profit__chart {
+    height: 52px;
+    margin-bottom: 9px;
+    padding-top: 17px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    background: #c1c1c1;
+    background: -moz-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(61%, rgba(193, 193, 193, 1)), color-stop(100%, rgba(249, 249, 249, 1)));
+    background: -webkit-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -o-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    background: linear-gradient(to bottom, rgba(193, 193, 193, 1) 61%, rgba(249, 249, 249, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c1c1c1', endColorstr='#f9f9f9', GradientType=0);
+}
+
+.profit__chart,
+.profit__diff,
+.profit__inner {
+    position: relative;
+    width: 150px;
+}
+
+.profit__chart,
+.profit__descr {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.profit__descr {
+    color: #929394;
+    text-align: center;
+}
+
+.profit__chart,
+.profit__descr {
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.profit__total {
+    position: absolute;
+    width: 212px;
+    top: 59px;
+    right: -96px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.profit__diff {
+    height: 85px;
+    margin-bottom: 3px;
+    background-color: #019BE1;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.profit__descr {
+    color: #929394;
+    text-align: center;
+}
+
+.profit__total {
+    position: absolute;
+    width: 212px;
+    top: 59px;
+    right: -96px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.profit__total-sum {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.profit__diff-val,
+.profit__diff-val:after {
+    width: 100%;
+    height: 13px;
+    left: 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFF;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+.profit__diff-val {
+    top: 50%;
+    margin-top: 3px;
+}
+
+.profit__diff-val:after {
+    content: 'Ð”Ð¾Ñ…Ð¾Ð´';
+    bottom: 100%;
+    margin-bottom: 4px;
+}
+
+.profit__inner {
+    margin-right: 14px;
+}
+
+.profit__wrapper {
+    position: relative;
+    width: 320px;
+    padding-bottom: 6px;
+    white-space: nowrap;
+    margin-left: 76px;
+    margin-bottom: 13px;
+}
+
+@media (max-width: 991px) {
+    .profit__wrapper {
+        position: relative;
+        width: 320px;
+        padding-bottom: 6px;
+        white-space: nowrap;
+        margin-left: 51px;
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .open .finput {
+        position: relative;
+        width: 100% !important;
+    }
+
+    .profit {
+        position: relative;
+        margin-left: auto;
+        padding-top: 8px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .profit__wrapper {
+        position: relative;
+        width: 320px;
+        padding-bottom: 6px;
+        white-space: nowrap;
+        margin-left: auto !important;
+        margin-bottom: 13px;
+        margin: 0 auto !important;
+    }
+
+    .profit__total {
+        position: relative;
+        width: 212px;
+        top: 16px;
+        right: auto;
+        margin: 0 auto;
+        left: auto;
+        padding-top: 16px;
+        padding-bottom: 17px;
+        text-align: center;
+        border: 1px solid #c1c1c1;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .open {
+        margin-top: 20px;
+    }
+}
+
+.profit i {
+    display: inline-block;
+    transform: scale(0.65);
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    vertical-align: middle;
+}
+
+.vlm {
+    vertical-align: middle;
+}
+
+.profit__total-sum i {
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+}
+
+.profit__total-sum i {
+    transform: scale(0.76) !important;
+    -webkit-transform: scale(0.76) !important;
+    -moz-transform: scale(0.76) !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.vlm {
+    font-family: 'Arial';
+}
+
+.vlm {
+    font-family: 'Arial';
+    font-weight: bold !important;
+}
+
+.profit__diff-val:after {
+    content: 'Profit';
+    bottom: 100%;
+    margin-bottom: 4px;
+}
+
+@media (min-width: 1200px) {
+    .profit__total {
+        right: -114px;
+    }
+}
+
+.profit__total {
+    right: -126px !important;
+    width: 161px !important;
+}
+
+.profit__total span.vlm.percent_profit {
+    font-size: 14px;
+}
+
+span.vlm.percent_profit {
+    font-size: 12px;
+}
+
+span#profit_total_sum {
+    font-size: 12px;
+}
+
+/*! CSS Used from: Embedded */
+.vlm {
+    font-family: 'Arial';
+}
+
+.profit__diff-val:after {
+    content: 'Profit';
+    bottom: 100%;
+    margin-bottom: 4px;
+}
+
+@media (min-width: 1200px) {
+    .profit__total {
+        right: -114px;
+    }
+}
+
+.profit__total span.vlm.percent_profit {
+    font-size: 14px;
+}
+
+span.vlm.percent_profit {
+    font-size: 12px;
+}
+
+span#profit_total_sum {
+    font-size: 12px;
+}
+
+.radio.type {
+    float: left;
+    margin-top: 0;
+}
+
+.radio label,
+.checkbox label {
+    min-height: 20px;
+    padding-left: 0px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+input#input_sum {
+    width: 100%;
+    border-radius: 3px;
+    border: 0;
+    border-bottom: 2px solid #0093D3;
+    border-radius: 0;
+    font-size: 24px;
+}
+
+
+@media (max-width: 767px) {
+    .profit__total {
+        right: 0 !important;
+        width: 161px !important;
+        margin-bottom: 42px !important;
+    }
+
+    .col-md-9.col-sm-9s {
+        margin-top: 20px !important;
+    }
+}
+
+.radio.type {
+    float: left;
+    margin-top: 0;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+
+.fa-circle:before {
+    content: "\f111";
+    color: #369595;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #d0d4d8;
+    border-radius: 100px;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: .8em;
+    background: #fff;
+    margin-top: 0px;
+    font-family: 'ProximaNova-Regular';
+}
+
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+$colors: #2b908f,
+#90ee7e,
+#f45b5b,
+#7798BF,
+#aaeeee,
+#ff0066,
+#eeaaee,
+#55BF3B,
+#DF5353,
+#7798BF,
+#aaeeee
+
+/* Titles */
+
+/* Axes */
+
+
+/* Credits */
+
+/* Tooltip */
+
+/* Legend hover affects points and series */
+
+/* Series options */
+
+
+
+/* Legend */
+
+/* Loading */
+
+/* Plot bands and polar pane backgrounds */
+
+/* Highcharts More */
+
+/* Highstock */
+
+/* Highmaps */
+
+/* 3d charts */
+
+/* Exporting module */
+
+/* Drilldown module */
+
+/* No-data module */

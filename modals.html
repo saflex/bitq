@@ -1,461 +1,333 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Web-page</title>
-	<!-- styles -->
-	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-	<link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css"/>
-	<link href="plugins/BootstrapSelect/bootstrap-select.css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/media.css" rel="stylesheet">
-	<link href="css/font-awesome.css" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,800italic,800,700italic,700,600italic,600,400italic,400|Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<!-- scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="plugins/SlickSlider/slick/slick.js"></script>
-	<script src="plugins/BootstrapSelect/bootstrap-select.js" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web-page</title>
+    <!-- styles -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css" />
+    <link href="plugins/BootstrapSelect/bootstrap-select.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,800italic,800,700italic,700,600italic,600,400italic,400|Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="plugins/SlickSlider/slick/slick.js"></script>
+    <script src="plugins/BootstrapSelect/bootstrap-select.js" type="text/javascript"></script>
 </head>
+
 <body>
-
-	<div class="btn" data-toggle="modal" data-target="#loginm">Забыли пароль?</div>
-
-	<div class="btn" data-toggle="modal" data-target="#vvds">Вывести средства</div>
-
-	<div class="btn" data-toggle="modal" data-target="#vvds2">Обменять балансы</div>
-
-	<div class="btn" data-toggle="modal" data-target="#ppbalance">Пополнить баланс</div>
-	<div class="btn" data-toggle="modal" data-target="#ppbalanceb">Пополнить Bitcoin</div>
-	<div class="btn" data-toggle="modal" data-target="#ppbalancebq">Пополнить Bique</div>
-
-	<div class="btn" data-toggle="modal" data-target="#btcModal">Вывести Bitcoin</div>
-	<div class="btn" data-toggle="modal" data-target="#verifModal">Верификация адреса</div>
-
-	<div class="btn" data-toggle="modal" data-target="#veriftelModal">Верификация телефона</div>
-
-	<!-- инициализация скриптов -->
-	<script src="js/scripts.js" type="text/javascript"></script>
-	<!-- инициализация скриптов -->
-
-	<div class="modal fade detals-modal" id="loginm" tabindex="-1" role="dialog" aria-labelledby="loginm" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Восстановление пароля</h3>
-
-					<div class="white-modal-padding">
-
-						<div class="form-grup-n">
-							<input class="form-control white-input" placeholder="Ваш E-mail"></div>
-
-						<div class="ukz-email">
-							Укажите email с которым вы регистрировались. Мы отправим новый пароль на указанную электронную почту.
-						</div>
-
-						<button class="button n-btn">Отправить</button>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade detals-modal" id="vvds" tabindex="-1" role="dialog" aria-labelledby="vvds" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Вывести средства</h3>
-
-					<div class="white-modal-padding">
-
-						<div class="form-grup-n">
-							<select class="selectpicker">
-								<option>Выберите кошелек</option>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-
-							</select>
-						</div>
-
-						<div class="form-grup-n">
-							<input class="form-control white-input" placeholder="Укажите Bitcoin адрес получателя"></div>
-
-						<div class="form-grup-n">
-							<input class="form-control white-input" placeholder="Сумма к выводу"></div>
-
-						<button class="button n-btn">Вывести</button>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade detals-modal" id="vvds2" tabindex="-1" role="dialog" aria-labelledby="vvds2" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Обменять балансы</h3>
-
-					<div class="white-modal-padding">
-
-						<div class="row">
-
-							<div class="col-xs-6 afts">
-
-								<div class="form-grup-n">
-									<select class="selectpicker">
-										<option>Bique</option>
-										<option>1</option>
-										<option>2</option>
-										<option>3</option>
-
-									</select>
-								</div>
-
-							</div>
-
-							<div class="col-xs-6">
-
-								<div class="form-grup-n">
-									<select class="selectpicker">
-										<option>Bitcoin</option>
-										<option>1</option>
-										<option>2</option>
-										<option>3</option>
-
-									</select>
-								</div>
-
-							</div>
-
-							<div class="col-xs-6">
-
-								<div class="form-grup-n">
-									<input class="form-control white-input" placeholder="Отдаю"></div>
-
-							</div>
-
-							<div class="col-xs-6">
-
-								<div class="form-grup-n">
-									<input class="form-control white-input" placeholder="Получаю"></div>
-
-							</div>
-
-						</div>
-
-						<p class="smms">Укажите сумму обмена</p>
-
-						<div class="col-xs-6">
-
-							<div class="form-grup-n">
-								<div class="splt">
-									1.335345
-									<span>Курс обмена</span>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="col-xs-6">
-
-							<div class="form-grup-n">
-								<div class="splt">
-									1.335345
-									<span>Комиссия</span>
-								</div>
-							</div>
-
-						</div>
-
-						<button class="button n-btn">Обменять</button>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade detals-modal" id="btcModal" tabindex="-1" role="dialog" aria-labelledby="btcModal" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Вывести Bitcoin</h3>
-
-					<div class="white-modal-padding">
-
-						<div class="form-grup-n">
-							<input class="form-control white-input" placeholder="Укажите Bitcoin адрес получателя"></div>
-
-						<div class="form-grup-n">
-							<input class="form-control white-input" placeholder="Сумма к выводу"></div>
-
-						<button class="button n-btn">Вывести</button>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade detals-modal" id="verifModal" tabindex="-1" role="dialog" aria-labelledby="verifModal" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Верификация адреса</h3>
-
-					<div class="white-modal-padding">
-
-						<div class="txtls">
-							Для верификации вашего адреса загрузите один из следующих документов: страница паспорта с пропиской, банковская выписка, счет за коммунальные услуги.
-						</div>
-
-						<div class="form-grup-n">
-							<select class="selectpicker">
-								<option>Выберите тип документа</option>
-								<option>страница паспорта</option>
-								<option>банковская выписка</option>
-								<option>счет за коммунальные услуги</option>
-
-							</select>
-						</div>
-
-						<div class="trebs">
-							Требования к документу: четкое цветное изображение, размер более 600x600px, без скрытых деталей
-						</div>
-
-						<form action="#">
-  <div class="input-file-container">  
-    <input class="input-file" id="my-file" type="file">
-    <label tabindex="0" for="my-file" class="input-file-trigger">Прикрепить изображение</label>
-  </div>
-  <p class="file-return"></p>
-</form>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade detals-modal" id="veriftelModal" tabindex="-1" role="dialog" aria-labelledby="veriftelModal" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Верификация телефона</h3>
-
-					<div class="white-modal-padding">
-
-						<div class="txtls">
-							Для верификации номера телефона мы отправим вам SMS сообщение с кодом проверки
-						</div>
-
-						<a href="#" class="codd">Получить код</a>
-
-						<div class="col-xs-6">
-							<div class="form-grup-n">
-								<input class="form-control white-input" placeholder="Введите код"></div>
-
-						</div>
-
-						<div class="col-xs-6">
-
-							<button class="button n-btn st-lls vefifs">Верифицировать</button>
-						</div>
-
-						<div class="clearfix"></div>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="modal fade detals-modal" id="ppbalance" tabindex="-1" role="dialog" aria-labelledby="ppbalance" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Пополнить баланс</h3>
-
-					<div class="white-modal-padding">
-
-						<div id="exTab1">
-							<ul  class="nav nav-pills">
-								<li class="active">
-									<a  href="#1a" data-toggle="tab">Bique</a>
-								</li>
-								<li>
-									<a href="#2a" data-toggle="tab">Bitcoin</a>
-								</li>
-
-							</ul>
-
-							<div class="tab-content clearfix">
-								<div class="tab-pane active" id="1a">
-									<div class="form-grup-n">
-										<input class="form-control white-input" placeholder="Введите 20-ти значный код"></div>
-
-									<div class="ukz-email">Введите код ваучера для пополнения Bitque баланса</div>
-
-									<button class="button n-btn">Готово</button>
-								</div>
-								<div class="tab-pane" id="2a">
-
-									<div class="srls row">
-										<div class="col-xs-6">
-											<img class="qr img-responsive" src="img/qr.png"></div>
-										<div class="col-xs-6">
-											<div class="scan-qr">
-												<div class="scr1">
-													Отсканируйте QR код или скопируйте Bitcoin адрес для пополнения баланса.
-												</div>
-												<div class="scr2">
-													После того, как вы сделаете перевод, мы ждем 3 подтвержений для зачесления средств. Обычно это занимает 10-20 минут.
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="tll-txt">1GbVfrffgfgfFDgghfhghFDgfg</div>
-
-									<button class="button n-btn">Готово</button>
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-
-
-
-
-
-
-<div class="modal fade detals-modal" id="ppbalanceb" tabindex="-1" role="dialog" aria-labelledby="ppbalanceb" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Пополнить Bitcoin</h3>
-
-					<div class="white-modal-padding">
-
-					
-
-									<div class="srls row">
-										<div class="col-xs-6">
-											<img class="qr img-responsive" src="img/qr.png"></div>
-										<div class="col-xs-6">
-											<div class="scan-qr">
-												<div class="scr1">
-													Отсканируйте QR код или скопируйте Bitcoin адрес для пополнения баланса.
-												</div>
-												<div class="scr2">
-													После того, как вы сделаете перевод, мы ждем 3 подтвержений для зачесления средств. Обычно это занимает 10-20 минут.
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="tll-txt">1GbVfrffgfgfFDgghfhghFDgfg</div>
-
-									<button class="button n-btn">Готово</button>
-								
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-
-
-<div class="modal fade detals-modal" id="ppbalancebq" tabindex="-1" role="dialog" aria-labelledby="ppbalancebq" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
-					<h3>Пополнить Bique</h3>
-
-					<div class="white-modal-padding">
-<div class="form-grup-n">
-										<input class="form-control white-input" placeholder="Введите 20-ти значный код"></div>
-
-									<div class="ukz-email">Введите код ваучера для пополнения Bitque баланса</div>
-
-									<button class="button n-btn">Готово</button>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-<style>
-	div.btn {
-    color: #fff;
-}
-</style>
-
-<script>
-	document.querySelector("html").classList.add('js');
-
-var fileInput  = document.querySelector( ".input-file" ),  
-    button     = document.querySelector( ".input-file-trigger" ),
-    the_return = document.querySelector(".file-return");
-      
-button.addEventListener( "keydown", function( event ) {  
-    if ( event.keyCode == 13 || event.keyCode == 32 ) {  
-        fileInput.focus();  
-    }  
-});
-button.addEventListener( "click", function( event ) {
-   fileInput.focus();
-   return false;
-});  
-fileInput.addEventListener( "change", function( event ) {  
-    the_return.innerHTML = this.value;  
-});  
-</script>
-
-
+    <div class="btn" data-toggle="modal" data-target="#loginm">Забыли пароль?</div>
+    <div class="btn" data-toggle="modal" data-target="#vvds">Вывести средства</div>
+    <div class="btn" data-toggle="modal" data-target="#vvds2">Обменять балансы</div>
+    <div class="btn" data-toggle="modal" data-target="#ppbalance">Пополнить баланс</div>
+    <div class="btn" data-toggle="modal" data-target="#ppbalanceb">Пополнить Bitcoin</div>
+    <div class="btn" data-toggle="modal" data-target="#ppbalancebq">Пополнить Bique</div>
+    <div class="btn" data-toggle="modal" data-target="#btcModal">Вывести Bitcoin</div>
+    <div class="btn" data-toggle="modal" data-target="#verifModal">Верификация адреса</div>
+    <div class="btn" data-toggle="modal" data-target="#veriftelModal">Верификация телефона</div>
+    <!-- инициализация скриптов -->
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <!-- инициализация скриптов -->
+    <div class="modal fade detals-modal" id="loginm" tabindex="-1" role="dialog" aria-labelledby="loginm" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Восстановление пароля</h3>
+                    <div class="white-modal-padding">
+                        <div class="form-grup-n">
+                            <input class="form-control white-input" placeholder="Ваш E-mail"></div>
+                        <div class="ukz-email">
+                            Укажите email с которым вы регистрировались. Мы отправим новый пароль на указанную электронную почту.
+                        </div>
+                        <button class="button n-btn">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade detals-modal" id="vvds" tabindex="-1" role="dialog" aria-labelledby="vvds" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Вывести средства</h3>
+                    <div class="white-modal-padding">
+                        <div class="form-grup-n">
+                            <select class="selectpicker">
+                                <option>Выберите кошелек</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="form-grup-n">
+                            <input class="form-control white-input" placeholder="Укажите Bitcoin адрес получателя"></div>
+                        <div class="form-grup-n">
+                            <input class="form-control white-input" placeholder="Сумма к выводу"></div>
+                        <button class="button n-btn">Вывести</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade detals-modal" id="vvds2" tabindex="-1" role="dialog" aria-labelledby="vvds2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Обменять балансы</h3>
+                    <div class="white-modal-padding">
+                        <div class="row">
+                            <div class="col-xs-6 afts">
+                                <div class="form-grup-n">
+                                    <select class="selectpicker">
+                                        <option>Bique</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-grup-n">
+                                    <select class="selectpicker">
+                                        <option>Bitcoin</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-grup-n">
+                                    <input class="form-control white-input" placeholder="Отдаю"></div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-grup-n">
+                                    <input class="form-control white-input" placeholder="Получаю"></div>
+                            </div>
+                        </div>
+                        <p class="smms">Укажите сумму обмена</p>
+                        <div class="col-xs-6">
+                            <div class="form-grup-n">
+                                <div class="splt">
+                                    1.335345
+                                    <span>Курс обмена</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-grup-n">
+                                <div class="splt">
+                                    1.335345
+                                    <span>Комиссия</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="button n-btn">Обменять</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade detals-modal" id="btcModal" tabindex="-1" role="dialog" aria-labelledby="btcModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Вывести Bitcoin</h3>
+                    <div class="white-modal-padding">
+                        <div class="form-grup-n">
+                            <input class="form-control white-input" placeholder="Укажите Bitcoin адрес получателя"></div>
+                        <div class="form-grup-n">
+                            <input class="form-control white-input" placeholder="Сумма к выводу"></div>
+                        <button class="button n-btn">Вывести</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade detals-modal" id="verifModal" tabindex="-1" role="dialog" aria-labelledby="verifModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Верификация адреса</h3>
+                    <div class="white-modal-padding">
+                        <div class="txtls">
+                            Для верификации вашего адреса загрузите один из следующих документов: страница паспорта с пропиской, банковская выписка, счет за коммунальные услуги.
+                        </div>
+                        <div class="form-grup-n">
+                            <select class="selectpicker">
+                                <option>Выберите тип документа</option>
+                                <option>страница паспорта</option>
+                                <option>банковская выписка</option>
+                                <option>счет за коммунальные услуги</option>
+                            </select>
+                        </div>
+                        <div class="trebs">
+                            Требования к документу: четкое цветное изображение, размер более 600x600px, без скрытых деталей
+                        </div>
+                        <form action="#">
+                            <div class="input-file-container">
+                                <input class="input-file" id="my-file" type="file">
+                                <label tabindex="0" for="my-file" class="input-file-trigger">Прикрепить изображение</label>
+                            </div>
+                            <p class="file-return"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade detals-modal" id="veriftelModal" tabindex="-1" role="dialog" aria-labelledby="veriftelModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Верификация телефона</h3>
+                    <div class="white-modal-padding">
+                        <div class="txtls">
+                            Для верификации номера телефона мы отправим вам SMS сообщение с кодом проверки
+                        </div>
+                        <a href="#" class="codd">Получить код</a>
+                        <div class="col-xs-6">
+                            <div class="form-grup-n">
+                                <input class="form-control white-input" placeholder="Введите код"></div>
+                        </div>
+                        <div class="col-xs-6">
+                            <button class="button n-btn st-lls vefifs">Верифицировать</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade detals-modal" id="ppbalance" tabindex="-1" role="dialog" aria-labelledby="ppbalance" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Пополнить баланс</h3>
+                    <div class="white-modal-padding">
+                        <div id="exTab1">
+                            <ul class="nav nav-pills">
+                                <li class="active">
+                                    <a href="#1a" data-toggle="tab">Bique</a>
+                                </li>
+                                <li>
+                                    <a href="#2a" data-toggle="tab">Bitcoin</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content clearfix">
+                                <div class="tab-pane active" id="1a">
+                                    <div class="form-grup-n">
+                                        <input class="form-control white-input" placeholder="Введите 20-ти значный код"></div>
+                                    <div class="ukz-email">Введите код ваучера для пополнения Bitque баланса</div>
+                                    <button class="button n-btn">Готово</button>
+                                </div>
+                                <div class="tab-pane" id="2a">
+                                    <div class="srls row">
+                                        <div class="col-xs-6">
+                                            <img class="qr img-responsive" src="img/qr.png"></div>
+                                        <div class="col-xs-6">
+                                            <div class="scan-qr">
+                                                <div class="scr1">
+                                                    Отсканируйте QR код или скопируйте Bitcoin адрес для пополнения баланса.
+                                                </div>
+                                                <div class="scr2">
+                                                    После того, как вы сделаете перевод, мы ждем 3 подтвержений для зачесления средств. Обычно это занимает 10-20 минут.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tll-txt">1GbVfrffgfgfFDgghfhghFDgfg</div>
+                                    <button class="button n-btn">Готово</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade detals-modal" id="ppbalanceb" tabindex="-1" role="dialog" aria-labelledby="ppbalanceb" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Пополнить Bitcoin</h3>
+                    <div class="white-modal-padding">
+                        <div class="srls row">
+                            <div class="col-xs-6">
+                                <img class="qr img-responsive" src="img/qr.png"></div>
+                            <div class="col-xs-6">
+                                <div class="scan-qr">
+                                    <div class="scr1">
+                                        Отсканируйте QR код или скопируйте Bitcoin адрес для пополнения баланса.
+                                    </div>
+                                    <div class="scr2">
+                                        После того, как вы сделаете перевод, мы ждем 3 подтвержений для зачесления средств. Обычно это занимает 10-20 минут.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tll-txt">1GbVfrffgfgfFDgghfhghFDgfg</div>
+                        <button class="button n-btn">Готово</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade detals-modal" id="ppbalancebq" tabindex="-1" role="dialog" aria-labelledby="ppbalancebq" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">закрыть</button>
+                    <h3>Пополнить Bique</h3>
+                    <div class="white-modal-padding">
+                        <div class="form-grup-n">
+                            <input class="form-control white-input" placeholder="Введите 20-ти значный код"></div>
+                        <div class="ukz-email">Введите код ваучера для пополнения Bitque баланса</div>
+                        <button class="button n-btn">Готово</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    document.querySelector("html").classList.add('js');
+
+    var fileInput = document.querySelector(".input-file"),
+        button = document.querySelector(".input-file-trigger"),
+        the_return = document.querySelector(".file-return");
+
+    button.addEventListener("keydown", function(event) {
+        if (event.keyCode == 13 || event.keyCode == 32) {
+            fileInput.focus();
+        }
+    });
+    button.addEventListener("click", function(event) {
+        fileInput.focus();
+        return false;
+    });
+    fileInput.addEventListener("change", function(event) {
+        the_return.innerHTML = this.value;
+    });
+    </script>
+    <style>
+    div.btn {
+        color: #fff;
+    }
+    </style>
 </body>
-	</html>
+
+</html>
